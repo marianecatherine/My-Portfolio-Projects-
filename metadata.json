@@ -1,0 +1,6 @@
+{
+  "name": "Reelmark Pâtisserie",
+  "description": "Artisanal French pastry boutique and bakery featuring laminated croissants, seasonal fruit tarts, delicate danishes, and fresh daily batches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

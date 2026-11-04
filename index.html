@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reelmark Pâtisserie — Artisanal French Viennoiserie & Slow-Laminated Bakery</title>
+    <meta name="description" content="Slow-laminated French viennoiserie, honeycomb butter croissants, and seasonal fruit tarts baked fresh at dawn with Normandy AOP butter. Order online for pickup." />
+    <meta name="keywords" content="french bakery, viennoiserie, croissant, artisan patisserie, fruit tarts, normandy butter, fresh daily bakery, specialty coffee, london, paris" />
+    <meta name="author" content="Reelmark Pâtisserie" />
+    <meta name="theme-color" content="#08482D" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Reelmark Pâtisserie" />
+    <meta property="og:title" content="Reelmark Pâtisserie — Artisanal French Viennoiserie & Slow-Laminated Bakery" />
+    <meta property="og:description" content="Slow-laminated French viennoiserie, honeycomb butter croissants, and seasonal fruit tarts baked fresh at dawn with Normandy AOP butter." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80" />
+    <meta property="og:image:alt" content="Artisanal golden flaky French croissants and slow-laminated viennoiserie" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Reelmark Pâtisserie — Artisanal French Viennoiserie & Slow-Laminated Bakery" />
+    <meta name="twitter:description" content="Slow-laminated French viennoiserie, honeycomb butter croissants, and seasonal fruit tarts baked fresh at dawn with Normandy AOP butter." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter+Tight:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data for Bakery & Portfolio WebApp -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Bakery",
+          "@id": "https://reelmarkpatisserie.com/#bakery",
+          "name": "Reelmark Pâtisserie",
+          "alternateName": "Reelmark Artisanal Viennoiserie",
+          "description": "Slow-laminated French viennoiserie, honeycomb butter croissants, and seasonal fruit tarts baked fresh at dawn with Normandy AOP butter.",
+          "servesCuisine": ["French Viennoiserie", "Artisanal Pâtisserie", "Specialty Coffee"],
+          "priceRange": "€€",
+          "currenciesAccepted": "EUR, GBP",
+          "paymentAccepted": "Credit Card, Apple Pay, Google Pay, Contactless",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "07:00",
+              "closes": "18:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday", "Sunday"],
+              "opens": "07:30",
+              "closes": "17:00"
+            }
+          ],
+          "hasMenu": "#menu",
+          "makesOffer": {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "MenuItem",
+              "name": "Classic French Butter Croissant (Pain au Beurre AOP)",
+              "offers": {
+                "@type": "Offer",
+                "price": "4.80",
+                "priceCurrency": "EUR"
+              }
+            }
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://reelmarkpatisserie.com/#webapp",
+          "name": "Reelmark Pâtisserie Storefront",
+          "applicationCategory": "E-Commerce / Food & Drink Application",
+          "operatingSystem": "All modern web browsers",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#F5F8EF] text-[#101410] antialiased selection:bg-[#DAE7C7] selection:text-[#08482D]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
