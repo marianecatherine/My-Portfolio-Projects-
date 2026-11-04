@@ -5,8 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/My-Portfolio-Projects/',
-
+    base: '/My-Portfolio-Projects-/',
     plugins: [react(), tailwindcss()],
 
     resolve: {
